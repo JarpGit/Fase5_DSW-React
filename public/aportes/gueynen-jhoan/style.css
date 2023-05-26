@@ -1,0 +1,87 @@
+.contenedor{
+	display: grid;
+	grid-template-areas: 
+		'A A A A'
+		'B B B B'
+		'C D D D'
+		'E E E E';
+}
+
+/* Estilos para el encabezado */
+header {
+	grid-area: A;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+	grid-area: B;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background-color: #333;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+aside {
+	grid-area: C;
+	background-color: #686767;
+	color: #fff;
+	padding: 10px;
+}
+
+
+/* Estilos para el contenido principal */
+main {
+	grid-area: D;
+	margin: 20px;
+}
+
+h2 {
+	color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+	grid-area: E;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+#fecha-hora {
+	text-align: right;
+	font-size: 10px;
+	font-style: italic;
+  }

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fase 3 - Diseñar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel='stylesheet' href='../assets/styles/styles.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-color-int" style="padding-top: 20px; padding-bottom: 20px">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand NotoSansBold" style="color: #181C31;" href="#">DISEÑO DE SITIOS WEB</a>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active NotoSansRegular" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link NotoSansRegular dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Temas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item NotoSansRegular" href="media-queries.html">Media Queries</a></li>
+                  <li><a class="dropdown-item NotoSansRegular" href="box-model.html">Box Model</a></li>
+                  <li><a class="dropdown-item NotoSansRegular" href="css-grid.html">CSS Grid</a></li>
+                  <li><a class="dropdown-item NotoSansRegular" href="selectores-css.html">Selectores CSS</a></li>
+                  <li><a class="dropdown-item NotoSansRegular" href="#">Tema 5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active NotoSansRegular" href="../audio.html">Audios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active NotoSansRegular" href="../nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+       <div class="col-sm-auto bg-color-aside sticky-top">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-color-aside align-items-center sticky-top">
+              
+                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center" style="margin-top: 200px;">
+                    <li class="nav-item NotoSansRegular">
+                        <a href="../index.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                          <div class="col-lg-3 menu-aside">
+                            <h5 class="text-center">Inicio </h5>
+                          </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../audio.html" class="nav-link NotoSansRegular py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                          <div class="col-lg-3 menu-aside">
+                            <h5 class="text-center">Audios </h5>
+                          </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../nosotros.html" class="nav-link NotoSansRegular py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                          <div class="col-lg-3 menu-aside">
+                            <h5 class="text-center">Nosotros </h5>
+                          </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+          <div class="col-sm p-3 min-vh-100">
+            <!-- Contenido -->
+
+            <section class="bg-color-int margin-content" id="inicio">
+    <div class="pading-sections">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="text-inicial">Diseño de Sitios Web</p>
+          <p class="text-inicial-dos"><strong>Tema - <span class="color-grad">CSS Grid</span> </strong> </p>
+          <p class="autor">Julián Alberto Ruiz Piedrahíta </p>
+          <div class="botton-pr">
+            <a class="btn btn-lg boton-principal" href="#tema" role="button" style="color: white;">Ver más</a>
+          </div>
+        </div>
+        <div class="col-lg-6 image-pr">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-color-audio pading-sections" id="tema">
+    <div class="container">
+
+      <div class="card pading-sections-audio" style="margin-right: 50px; padding-right: 30px;">
+        <div class="card-body">
+
+          <div class="row">
+            <div class="col-lg-12"> 
+              <div id="queson">
+                <h4>Grid container</h4>
+                <p class="p-contet">
+                    Es el elemento que define el contenedor de la cuadrícula. Para crear una cuadrícula con CSS Grid, es necesario definir un elemento como grid container utilizando la propiedad display: grid.
+                </p>
+
+
+                <h4>Grid items</h4>
+                <p class="p-contet">
+                    Son los elementos que se colocan dentro del grid container. Cada grid item se posiciona dentro de la cuadrícula utilizando líneas horizontales y verticales.
+                </p>
+
+                <h4>Grid lines</h4>
+                <p class="p-contet">
+                    Son las líneas que definen los límites de las celdas en la cuadrícula. Las líneas horizontales se llaman grid rows, y las líneas verticales se llaman grid columns.
+                </p>
+
+                <h4>Grid tracks</h4>
+                <p class="p-contet">
+                    Son los espacios entre dos líneas adyacentes en la cuadrícula, se dividen en filas (grid rows) y columnas (grid columns), y se utilizan para definir el tamaño de las celdas.
+                </p>
+
+                <h4>Grid gaps</h4>
+                <p class="p-contet">
+                    Son los espacios en blanco entre las celdas de la cuadrícula. Se pueden definir gaps para las filas y columnas por separado utilizando las propiedades grid-row-gap y grip-column-gap, o bien utilizando la propiedad grid-gap para definir ambos de una sola vez.
+                </p>
+
+                <h4>Grid lines naming</h4>
+                <p class="p-contet">
+                    Es la técnica de nombrar las líneas de la cuadrícula para facilitar la definición de las celdas. Se pueden nombrar las líneas utilizando la propiedad grid-templates-rows o grid-templates-columns, y luego referirse a ellas utilizando los nombres en lugar de números.
+                </p>
+
+                <h4>Grid areas</h4>
+                <p class="p-contet">
+                    Son los bloques de celdas en la cuadrícula que se pueden agrupar y asignar un nombre para facilitar la definición del diseño. Las áreas se definen utilizando la propiedad grid-template-areas.
+                </p>
+
+                <h4>Grid template</h4>
+                <p class="p-contet">
+                    Es la estructura de la cuadrícula, que se define utilizando las propiedades grid-templates-rows y grid-templates-columns. La estructura se puede definir utilizando medidas absolutas, como pixeles, o medidas relativas como porcentajes.
+                </p>
+
+                <h4>Grid template shorthand</h4>
+                <p class="p-contet">
+                    Es una forma abreviada de definir la estructura de la cuadrícula utilizando una sola propiedad: grid-template. Con esta propiedad se pueden definir la estructura de una cuadrícula de CSS Grid de forma más compacta y legible.
+                </p>
+
+                <img src="../assets/images/css-grid.jpg" class="img-fluid" alt="imagen principal">
+
+                <p></p>
+
+                <h4>Ejemplo de uso</h4>
+
+                <div class="grid-container">
+                    <div class="item item-1">1</div>
+                    <div class="item item-2">2</div>
+                    <div class="item item-3">3</div>
+                    <div class="item item-4">4</div>
+                    <div class="item item-5">5</div>
+                    <div class="item item-6">6</div>
+                    <div class="item item-7">7</div>
+                    <div class="item item-8">8</div>
+                    <div class="item item-9">9</div>
+                  </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+          </div>
+      </div>
+    </div>
+
+    <footer class="bg-color-footer" style="padding-top: 30px; padding-bottom: 20px; width:100%; bottom: 0px;">
+      <section class="footer">
+          <p class=" text-center"> 
+            &copy; Copyright - 
+            Daniel Pérez Arango -
+            Marlon Gamboa Leudo -  
+            Julián Alberto Ruiz Piedrahíta -
+            Gueynen Jhoan Mestra Flórez
+          </p>
+          <p class=" text-center"> 
+            7 de abril del 2023
+          </p>
+      </section>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
